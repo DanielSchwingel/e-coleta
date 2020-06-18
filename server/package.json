@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "ts-node-dev src/server.ts"
+    "server": "ts-node-dev src/server.ts",
+    "knex:migrate": "knex migrate:latest --knexfile knexfile.ts migrate:latest"
   },
   "author": "Daniel Filipe Schwingel",
   "license": "ISC",
